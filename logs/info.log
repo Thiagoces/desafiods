@@ -1,0 +1,94 @@
+2023-01-26 16:48:48,939 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-01-26 16:48:48,955 - Comm - WARNING - No such comm: 5726e5c9-2bf7-4198-99f5-597d8ada4dcc
+2023-01-27 09:29:12,625 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-01-27 09:29:12,639 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-01-27 09:29:13,010 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-01-27 09:29:13,028 - Comm - WARNING - No such comm: 7980023a-e02d-4aa6-a147-41cf91ba03ee
+2023-01-27 09:30:21,976 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-01-31 16:21:57,029 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-01-31 16:21:57,058 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-01-31 16:21:58,675 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-01-31 16:21:58,689 - Comm - WARNING - No such comm: 5b1a3394-9154-4113-b753-2afe1aa1a3ef
+2023-01-31 16:38:16,665 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-01-31 16:44:32,776 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-01-31 16:44:32,784 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-01-31 16:44:40,610 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-01-31 16:44:40,619 - Comm - WARNING - No such comm: 17d57845-2202-4819-a47f-88b286015688
+2023-02-03 11:40:15,589 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-03 11:40:15,602 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-03 11:41:13,986 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-03 11:41:13,996 - Comm - WARNING - No such comm: f3195607-7170-4031-9432-d9d506a5790a
+2023-02-03 11:46:26,283 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-03 11:47:02,727 - py.warnings - WARNING - /tmp/ipykernel_242/2627137660.py:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  data.corr()
+
+2023-02-03 11:53:39,938 - py.warnings - WARNING - /tmp/ipykernel_242/1794321463.py:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  sns.heatmap(data.corr())
+
+2023-02-07 18:08:36,771 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-07 18:08:36,779 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-07 18:08:37,813 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-07 18:08:37,827 - Comm - WARNING - No such comm: c8e1bc4f-8b22-494c-b8bb-7006401b86da
+2023-02-07 18:12:05,543 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-07 18:20:13,127 - py.warnings - WARNING - /tmp/ipykernel_148/2238682879.py:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  data.corr()['FinalMandates']
+
+2023-02-14 15:38:40,144 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-14 15:38:40,148 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-14 15:38:47,840 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-14 15:38:48,036 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-14 15:38:48,047 - Comm - WARNING - No such comm: baf32cce-0e86-410c-9f23-dfb37ca44add
+2023-02-14 15:48:16,321 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-15 16:25:28,540 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-15 16:25:28,548 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-15 16:25:32,597 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-15 16:25:32,609 - Comm - WARNING - No such comm: 1ea2addf-6beb-4881-9d35-21e8476435f8
+2023-02-15 16:25:42,997 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-15 16:26:31,238 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-15 16:34:07,063 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-22 13:34:22,719 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-22 13:34:22,757 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-22 13:34:29,465 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-22 13:34:29,493 - Comm - WARNING - No such comm: 22cbc221-2168-40a6-a0d4-dffe98c4d126
+2023-02-22 13:35:22,291 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-22 13:35:27,659 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-24 13:50:26,374 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 13:51:09,219 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 13:51:55,070 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 13:51:56,093 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-02-24 13:51:56,185 - kedro.pipeline.node - INFO - Running node: preprocess_companies_node: preprocess_companies([raw_data]) -> [preprocessed_companies]
+2023-02-24 13:51:56,189 - kedro.pipeline.node - ERROR - Node 'preprocess_companies_node: preprocess_companies([raw_data]) -> [preprocessed_companies]' failed with error: 
+'iata_approved'
+2023-02-24 13:51:56,192 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-02-24 16:36:45,642 - kedro.ipython - INFO - Kedro project previsao_eleitoral_desafio_ds
+2023-02-24 16:36:45,651 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2023-02-24 16:36:51,922 - Comm - ERROR - No such comm target registered: jupyter.widget.control
+2023-02-24 16:36:51,938 - Comm - WARNING - No such comm: 1af41ff0-1883-4aff-9858-ee474df7e694
+2023-02-24 16:46:46,388 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:47:16,400 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:48:21,022 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:48:22,074 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:48:22,082 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-02-24 16:49:13,379 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:49:14,389 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:49:14,510 - kedro.pipeline.node - INFO - Running node: create_obj_col_node: create_obj_col_node([my_dataframe]) -> [obj_col]
+2023-02-24 16:49:14,519 - kedro.io.data_catalog - INFO - Saving data to 'obj_col' (MemoryDataSet)...
+2023-02-24 16:49:14,523 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-02-24 16:49:14,525 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-02-24 16:49:14,527 - kedro.io.data_catalog - INFO - Loading data from 'obj_col' (MemoryDataSet)...
+2023-02-24 16:52:24,818 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:52:25,716 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:52:25,812 - kedro.pipeline.node - INFO - Running node: create_obj_col_node: create_obj_col_node([my_dataframe]) -> [obj_col]
+2023-02-24 16:52:25,815 - kedro.io.data_catalog - INFO - Saving data to 'obj_col' (MemoryDataSet)...
+2023-02-24 16:52:25,818 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-02-24 16:52:25,820 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-02-24 16:52:25,822 - kedro.io.data_catalog - INFO - Loading data from 'obj_col' (MemoryDataSet)...
+2023-02-24 16:53:43,540 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:53:44,591 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:53:44,595 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-02-24 16:54:39,906 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:54:40,900 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:54:40,905 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-02-24 16:55:38,070 - kedro.framework.session.session - INFO - Kedro project previsao-eleitoral-desafio-ds
+2023-02-24 16:55:39,059 - kedro.io.data_catalog - INFO - Loading data from 'my_dataframe' (CSVDataSet)...
+2023-02-24 16:55:39,063 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.

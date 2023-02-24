@@ -1,0 +1,10 @@
+raw_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/ElectionData.csv
+  load_args:
+    sep: ","
+my_dataframe:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/PreProcessingData.csv
+  load_args:
+    sep: ","
