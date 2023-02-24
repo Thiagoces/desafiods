@@ -1,122 +1,122 @@
 # Previsão Eleitoral
 
-## Overview
+## Visão geral
 
-This is your new Kedro project, which was generated using `Kedro 0.18.4`.
+Este é o seu novo projeto Kedro, que foi gerado usando `Kedro 0.18.4`.
 
-Take a look at the [Kedro documentation](https://kedro.readthedocs.io) to get started.
+Dê uma olhada na [documentação do Kedro](https://kedro.readthedocs.io) para começar.
 
-## Rules and guidelines
+## Regras e diretrizes
 
-In order to get the best out of the template:
+Para obter o melhor do modelo:
 
-* Don't remove any lines from the `.gitignore` file we provide
-* Make sure your results can be reproduced by following a [data engineering convention](https://kedro.readthedocs.io/en/stable/faq/faq.html#what-is-data-engineering-convention)
-* Don't commit data to your repository
-* Don't commit any credentials or your local configuration to your repository. Keep all your credentials and local configuration in `conf/local/`
+* Não remova nenhuma linha do arquivo `.gitignore` que fornecemos
+* Certifique-se de que seus resultados possam ser reproduzidos seguindo uma [convenção de engenharia de dados](https://kedro.readthedocs.io/en/stable/faq/faq.html#what-is-data-engineering-convention)
+* Não envie dados para o seu repositório
+* Não confirme nenhuma credencial ou sua configuração local em seu repositório. Mantenha todas as suas credenciais e configurações locais em `conf/local/`
 
-## How to install dependencies
+## Como instalar dependências
 
-Declare any dependencies in `src/requirements.txt` for `pip` installation and `src/environment.yml` for `conda` installation.
+Declare quaisquer dependências em `src/requirements.txt` para instalação `pip` e `src/environment.yml` para instalação `conda`.
 
-To install them, run:
+Para instalá-los, execute:
 
 ```
 pip install -r src/requirements.txt
 ```
 
-## How to run your Kedro pipeline
+## Como executar seu pipeline Kedro
 
-You can run your Kedro project with:
+Você pode executar seu projeto Kedro com:
 
 ```
 kedro run
 ```
 
-## How to test your Kedro project
+## Como testar seu projeto Kedro
 
-Have a look at the file `src/tests/test_run.py` for instructions on how to write your tests. You can run your tests as follows:
+Dê uma olhada no arquivo `src/tests/test_run.py` para obter instruções sobre como escrever seus testes. Você pode executar seus testes da seguinte maneira:
 
 ```
 kedro test
 ```
 
-To configure the coverage threshold, go to the `.coveragerc` file.
+Para configurar o limite de cobertura, acesse o arquivo `.coveragerc`.
 
-## Project dependencies
+## Dependências do projeto
 
-To generate or update the dependency requirements for your project:
+Para gerar ou atualizar os requisitos de dependência para seu projeto:
 
 ```
 kedro build-reqs
 ```
 
-This will `pip-compile` the contents of `src/requirements.txt` into a new file `src/requirements.lock`. You can see the output of the resolution by opening `src/requirements.lock`.
+Isso irá `pip-compile` o conteúdo de `src/requirements.txt` em um novo arquivo `src/requirements.lock`. Você pode ver a saída da resolução abrindo `src/requirements.lock`.
 
-After this, if you'd like to update your project requirements, please update `src/requirements.txt` and re-run `kedro build-reqs`.
+Depois disso, se você quiser atualizar os requisitos do seu projeto, atualize `src/requirements.txt` e execute novamente `kedro build-reqs`.
 
-[Further information about project dependencies](https://kedro.readthedocs.io/en/stable/kedro_project_setup/dependencies.html#project-specific-dependencies)
+[Mais informações sobre dependências do projeto](https://kedro.readthedocs.io/en/stable/kedro_project_setup/dependencies.html#project-specific-dependencies)
 
-## How to work with Kedro and notebooks
+## Como trabalhar com Kedro e notebooks
 
-> Note: Using `kedro jupyter` or `kedro ipython` to run your notebook provides these variables in scope: `context`, `catalog`, and `startup_error`.
+> Nota: Usar `kedro jupyter` ou `kedro ipython` para executar seu notebook fornece estas variáveis no escopo: `context`, `catalog` e `startup_error`.
 >
-> Jupyter, JupyterLab, and IPython are already included in the project requirements by default, so once you have run `pip install -r src/requirements.txt` you will not need to take any extra steps before you use them.
+> Jupyter, JupyterLab e IPython já estão incluídos nos requisitos do projeto por padrão, portanto, depois de executar `pip install -r src/requirements.txt`, você não precisará executar nenhuma etapa extra antes de usá-los.
 
 ### Jupyter
-To use Jupyter notebooks in your Kedro project, you need to install Jupyter:
+Para usar os notebooks Jupyter em seu projeto Kedro, você precisa instalar o Jupyter:
 
 ```
 pip install jupyter
 ```
 
-After installing Jupyter, you can start a local notebook server:
+Depois de instalar o Jupyter, você pode iniciar um servidor de notebook local:
 
 ```
 kedro jupyter notebook
 ```
 
 ### JupyterLab
-To use JupyterLab, you need to install it:
+Para usar o JupyterLab, você precisa instalá-lo:
 
 ```
 pip install jupyterlab
 ```
 
-You can also start JupyterLab:
+Você também pode iniciar o JupyterLab:
 
 ```
 kedro jupyter lab
 ```
 
 ### IPython
-And if you want to run an IPython session:
+E se você quiser executar uma sessão IPython:
 
 ```
 kedro ipython
 ```
 
-### How to convert notebook cells to nodes in a Kedro project
-You can move notebook code over into a Kedro project structure using a mixture of [cell tagging](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html#release-5-0-0) and Kedro CLI commands.
+### Como converter células de notebook em nós em um projeto Kedro
+Você pode mover o código do notebook para uma estrutura de projeto Kedro usando uma mistura de [marcação de célula](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html#release-5-0-0) e Kedro Comandos da CLI.
 
-By adding the `node` tag to a cell and running the command below, the cell's source code will be copied over to a Python file within `src/<package_name>/nodes/`:
+Ao adicionar a tag `node` a uma célula e executar o comando abaixo, o código-fonte da célula será copiado para um arquivo Python dentro de `src/<package_name>/nodes/`:
 
 ```
 kedro jupyter convert <filepath_to_my_notebook>
 ```
-> *Note:* The name of the Python file matches the name of the original notebook.
+> *Observação:* O nome do arquivo Python corresponde ao nome do notebook original.
 
-Alternatively, you may want to transform all your notebooks in one go. Run the following command to convert all notebook files found in the project root directory and under any of its sub-folders:
+Alternativamente, você pode querer transformar todos os seus cadernos de uma só vez. Execute o seguinte comando para converter todos os arquivos do notebook encontrados no diretório raiz do projeto e em qualquer uma de suas subpastas:
 
 ```
 kedro jupyter convert --all
 ```
 
-### How to ignore notebook output cells in `git`
-To automatically strip out all output cell contents before committing to `git`, you can run `kedro activate-nbstripout`. This will add a hook in `.git/config` which will run `nbstripout` before anything is committed to `git`.
+### Como ignorar as células de saída do notebook no `git`
+Para remover automaticamente todo o conteúdo da célula de saída antes de se comprometer com o `git`, você pode executar `kedro activate-nbstripout`. Isso adicionará um gancho em `.git/config` que executará `nbstripout` antes que qualquer coisa seja confirmada no `git`.
 
-> *Note:* Your output cells will be retained locally.
+> *Observação:* Suas células de saída serão mantidas localmente.
 
-## Package your Kedro project
+## Empacote seu projeto Kedro
 
-[Further information about building project documentation and packaging your project](https://kedro.readthedocs.io/en/stable/tutorial/package_a_project.html)
+[Mais informações sobre como criar a documentação do projeto e empacotar seu projeto](https://kedro.readthedocs.io/en/stable/tutorial/package_a_project.html)
