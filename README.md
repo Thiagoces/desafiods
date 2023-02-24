@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-Este é o seu novo projeto Kedro, que foi gerado usando `Kedro 0.18.4`.
+Este É o projeto Kedro de Previsão eleitoral, que foi gerado usando `Kedro 0.18.4` para o Programa Lighthouse.
 
 Dê uma olhada na [documentação do Kedro](https://kedro.readthedocs.io) para começar.
 
